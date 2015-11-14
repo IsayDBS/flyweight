@@ -1,4 +1,6 @@
+package myp.ejemplo;
 import java.awt.*;
+//Clase flyweight
 //Contiene los estados compartidos por varios arboles
 public class TreeType {
     private String name;

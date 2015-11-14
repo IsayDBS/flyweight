@@ -1,4 +1,6 @@
+package myp.ejemplo;
 import java.awt.*;
+//Clase contexto
 //Contiene los estados unicos de cada arbol
 public class Tree{
 	private int x;

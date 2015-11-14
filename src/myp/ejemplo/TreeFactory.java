@@ -1,6 +1,8 @@
+package myp.ejemplo;
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
+//Clase flyweight factory
 //Encapsulacion de complejidad de la creacion flyweight
 public class TreeFactory {
     static Map<String, TreeType> treeTypes = new HashMap<>();

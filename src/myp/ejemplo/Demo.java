@@ -1,4 +1,6 @@
+package myp.ejemplo;
 import java.awt.*;
+//Codigo cliente
 //Codigo cliente
 public class Demo {
     static int CANVAS_SIZE = 500;
@@ -16,14 +18,14 @@ public class Demo {
         forest.setSize(CANVAS_SIZE, CANVAS_SIZE);
         forest.setVisible(true);
 
-        System.out.println(TREES_TO_DRAW + " trees drawn");
+        System.out.println(TREES_TO_DRAW + " arboles dibujados");
         System.out.println("---------------------");
-        System.out.println("Memory usage:");
-        System.out.println("Tree size (8 bytes) * " + TREES_TO_DRAW);
-        System.out.println("+ TreeTypes size (~30 bytes) * " + TREE_TYPES + "");
+        System.out.println("Uso de memoria:");
+        System.out.println("Tamaño de arbol (8 bytes) * " + TREES_TO_DRAW);
+        System.out.println("+ TreeTypes tamanio (~30 bytes) * " + TREE_TYPES + "");
         System.out.println("---------------------");
         System.out.println("Total: " + ((TREES_TO_DRAW * 8 + TREE_TYPES * 30) / 1024 / 1024) +
-                "MB (instead of " + ((TREES_TO_DRAW * 38) / 1024 / 1024) + "MB)");
+                "MB (en lugar de " + ((TREES_TO_DRAW * 38) / 1024 / 1024) + "MB)");
     }
 
     private static int random(int min, int max) {
